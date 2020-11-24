@@ -1,0 +1,23 @@
+
+#### Create brian environment; 
+
+conda create --name brian2 python=3.5
+
+#### Activate environment 
+
+conda activate brian2
+
+### Install brian 2
+
+conda install -c conda-forge brian2
+
+### Install ipython 
+
+conda install -c anaconda ipykernel
+
+### Add environment to ipython notebook; (https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)
+
+python -m ipykernel install --user --name=brian2
+
+#### Brian2 Tutorials: https://brian2.readthedocs.io/en/stable/resources/tutorials/index.html
+#### 
